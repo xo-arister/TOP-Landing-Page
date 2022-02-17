@@ -1,0 +1,149 @@
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.flexbox-main {
+    background-color: #1f2937;
+    color: white;
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.header-box {
+    display: flex;
+    justify-content: space-between;
+}
+.header-links {
+    display: flex;
+    gap: 14px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.main-text-box {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-text {
+    flex: 1;
+}
+.image-box {
+    flex: 1;
+    font-size: 24px;
+    color: white;
+    padding: 120px 80px 120px;
+    background-color: gray;
+    text-align: center;
+    
+}
+
+#large-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;   
+}
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 8px 40px 8px;
+    border-radius: 10px;
+}
+#subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+
+
+.information-header-box {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 40px 200px 40px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 8px;
+
+}
+.box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+.image-subtext {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.subtext {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 40px 200px 40px;
+
+}
+#quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+#quote-bold {
+    font-weight: bolder;
+    text-align: right;
+}
+
+.signup-box-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #3882f6;
+    margin: 100px 200px 100px;
+    padding: 60px 60px 60px;
+    border-radius: 10px;
+}
+.signup-bold-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.signup-subtext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.bottom-button {
+    border: 3px solid white;
+}
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
